@@ -8,4 +8,4 @@ google-api-python-client
 oauth2client
 matplotlib
 requests
-docx
+python-docx
