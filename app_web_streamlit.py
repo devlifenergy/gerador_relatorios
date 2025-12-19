@@ -76,7 +76,7 @@ def criar_docx_bytes(texto_resposta):
     buffer.seek(0)
     return buffer.read()
 
-def chamar_gpt(api_key, prompt_text, modelo="gpt-3.5-turbo"):
+def chamar_gpt(api_key, prompt_text, modelo="gpt-5.2"):
     """Envia o prompt para a API da OpenAI e retorna a resposta."""
     headers = {
         "Authorization": f"Bearer {api_key}",
